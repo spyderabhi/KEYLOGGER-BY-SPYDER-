@@ -48,3 +48,11 @@ The keylogger will start capturing keystrokes and logging them to a specified ou
 
 This project is licensed under the MIT License. For more details, please refer to the LICENSE file included in the repository.
 
+## Contributing 
+Contributions to this project are welcome. If you have suggestions for improvements or new features, please submit a pull request or open an issue. Ensure that your contributions adhere to the project's coding standards and guidelines.
+
+## Contact
+For inquiries or further information, please contact:
+
+Name: Abhinav Saini
+Email: abhinavsaini0905@gmail.com
