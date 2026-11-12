@@ -1,58 +1,36 @@
-# KEYLOGGER-BY-SPYDER-
+![Input Monitoring Lab banner](assets/project-banner.svg)
 
-## Overview
+# Input Monitoring Lab — Authorized Security Research
 
-**KEYLOGGER-BY-SPYDER-** is a Python-based keylogger designed for educational and research purposes. This tool captures keystrokes in real-time, providing insights into user input behavior. It is crucial to emphasize that the use of keyloggers must comply with legal and ethical standards. Unauthorized monitoring of systems is illegal and can lead to severe consequences.
+Research prototype demonstrating local keyboard-event capture with Python in an **explicitly authorized laboratory environment**.
 
-## Table of Contents
+## Purpose
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- Understand keyboard event handling and input monitoring mechanisms.
+- Study risks of collecting unprotected input data.
+- Document safe demonstration practices and privacy requirements.
 
-## Features
+## Safety and privacy
 
-- **Real-time Keystroke Capture:** Monitors and logs keystrokes as they occur.
-- **Cross-Platform Compatibility:** Developed in Python, ensuring functionality across various operating systems.
-- **User -Friendly Interface:** Simple command-line interface for ease of use.
+**Use only on systems that you own or administer with explicit informed permission from all affected users.** Do not use for covert surveillance, unauthorized credential collection, or recording private communications.
 
-## Installation
+Keystroke logs may contain passwords or other sensitive information. Never commit captured data to a public repository. Earlier commits may have included sample log files; those files have been removed from the current repository tree as a precaution, but previous revisions remain in Git history.
 
-To set up the project, follow these steps:
+## Repository contents
 
-1. **Clone the Repository:**
+- `keylogger.py`: prototype Python source.
+- `requirements.txt`: dependencies.
+- `Docs/`: supporting educational material.
+- `Scripts/`: environment setup helper.
 
-   ```bash
-   git clone https://github.com/spyderabhi/KEYLOGGER-BY-SPYDER-.git
+## Validation
 
-## Navigate to the Project Directory:
+No claim is made that the prototype offers secure/encrypted storage, stealth capabilities, or verified cross-platform behavior. Source execution has **not** been validated in this portfolio audit. Avoid running outside an isolated consent-based test environment.
 
-cd KEYLOGGER-BY-SPYDER-
+## Maintainer
 
-## Install Required Dependencies:
-
-Ensure you have Python installed, then run:
-pip install -r requirements.txt
-
-## Usage
-
-To run the keylogger, execute the following command in your terminal:
-python keylogger.py
-
-The keylogger will start capturing keystrokes and logging them to a specified output file.
+Abhinav Saini · GitHub: spyderabhi
 
 ## License
 
-This project is licensed under the MIT License. For more details, please refer to the LICENSE file included in the repository.
-
-## Contributing 
-Contributions to this project are welcome. If you have suggestions for improvements or new features, please submit a pull request or open an issue. Ensure that your contributions adhere to the project's coding standards and guidelines.
-
-## Contact
-For inquiries or further information, please contact:
-
-Name: Abhinav Saini
-Email: abhinavsaini0905@gmail.com
+See `LICENSE`.
